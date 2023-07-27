@@ -11,6 +11,7 @@
         }
         table { 
            border-collapse: collapse;
+
            
         }
        caption{
@@ -20,6 +21,7 @@
        }
        th, td{
         border: 2px solid black;
+        padding: 8px;
         border-collapse: collapse;
        }
     </style>
@@ -34,15 +36,15 @@
         </caption>
         <thead>
             <tr>
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col" >Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
           
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3">Mulheres </th>
+                <th rowspan="3" scope="rowgroup">Mulheres </th>
                 <td>Ana Maria </td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -59,6 +61,27 @@
                 <td>Oblivion</td>
                 <td>Matrix</td>
                 <td>Big Hero</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocável</td>
+                <td>Aminesia</td>
+                <td>Gladiador</td>
+               
+            </tr>
+            <tr>
+                <td>Daniel Lourenço</td>
+                <td>wall-e</td>
+                <td>wooldboy</td>
+                <td>degal</td>
+
+            </tr>
+            <tr>
+                <td>Fabiano Mota</td>
+                <td>star wars 5 </td>
+                <td>taxi drive</td>
+                <td>Toy Store</td>
             </tr>
         </tbody>
     </table>
