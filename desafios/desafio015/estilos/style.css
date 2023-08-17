@@ -8,7 +8,7 @@
 }
 
 html, body{
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
     background-color: black;
 
@@ -19,7 +19,7 @@ body{
     background-attachment: fixed;
 }
 main{
-    height: 100vw;
+    height: 100vh;
     position: relative;
     
 }
@@ -33,4 +33,12 @@ section#telefone{
     width: 311px;
     background: url(../pacote-d013/pacote-d013/imagens/frame-iphone.png)no-repeat; 
    
+}
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+    
 }
